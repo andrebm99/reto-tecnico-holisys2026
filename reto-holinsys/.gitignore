@@ -1,0 +1,48 @@
+# Dependencias
+node_modules/
+
+# Build
+dist/
+build/
+
+# Variables de entorno
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cobertura de pruebas
+coverage/
+
+# Archivos temporales
+tmp/
+temp/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs / editores
+.vscode/
+.idea/
+
+# NestJS / TypeScript
+*.tsbuildinfo
+
+# Archivos de cache
+.cache/
+.eslintcache
+
+# Yarn / PNPM
+.pnp.*
+.yarn/
+.pnpm-store/
